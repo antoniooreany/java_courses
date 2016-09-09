@@ -8,9 +8,20 @@ body {
 
 table {
     border-collapse: collapse;
+    border-color: black;
+}
+
+caption {
+    caption-side: bottom;
+    text-align: center;
+}
+
+th {
+    padding: 10px;
+    border-bottom: 2px solid black;
 }
 
 td {
     padding: 10px;
-    border-bottom: 2px lightgray solid
+    border: 1px solid lightgray;
 }
