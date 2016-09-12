@@ -8,20 +8,44 @@ body {
 
 table {
     border-collapse: collapse;
-    border-color: black;
-}
-
-caption {
-    caption-side: bottom;
-    text-align: center;
-}
-
-th {
-    padding: 10px;
-    border-bottom: 2px solid black;
 }
 
 td {
+    width: 33%;
     padding: 10px;
-    border: 1px solid lightgray;
 }
+
+.header {
+    background-color: darkcyan;
+    color: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.header_city {
+    /*text-align: left;    */
+}
+
+.header_visits_caption {
+    background-color: lightblue;
+    text-align: center;
+}
+
+.header_visits {
+    text-align: center;
+}
+
+.persentage {
+    text-align: right;
+}
+
+.odd {
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+}
+
+.even {
+    background-color: lightyellow;
+    border-bottom: 1px solid lightgrey;
+}
+

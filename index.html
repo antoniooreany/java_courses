@@ -2,38 +2,34 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Таблица посложнее</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Испытание: итоговая таблица</title>
 </head>
 <body>
+<h1>Итоговая таблица</h1>
 <table>
-    <caption>Посещения по городам</caption>
-    <tr>
-        <th>Город</th>
-        <th>Посещения</th>
-        <th>Страниц</th>
-        <th>Время</th>
+    <tr class="header">
+        <td class="header_city">Город</td>
+        <td class="header_visits_caption">Посещений</td>
+        <td class="persentage">%</td>
     </tr>
-    <tr>
-        <td>СПб</td>
-        <td>199</td>
-        <td>18,02</td>
-        <td>00:13:45</td>
+    <tr class="odd">
+        <td class="header_city">СПб</td>
+        <td class="header_visits">199</td>
+        <td class="persentage">65.12</td>
     </tr>
-    <tr>
-        <td>Москва</td>
-        <td>69</td>
-        <td rowspan="2">нет данных</td>
-        <td>00:00:44</td>
+    <tr class="even">
+        <td class="header_city">Москва</td>
+        <td class="header_visits">69</td>
+        <td class="persentage">21.3</td>
     </tr>
-    <tr>
-        <td>Киев</td>
-        <td>5</td>
-        <td>00:18:07</td>
+    <tr class="odd">
+        <td class="header_city">Киев</td>
+        <td class="header_visits">5</td>
+        <td class="persentage">8</td>
     </tr>
-    <tr>
-        <td colspan="3">Всего посещений</td>
-        <td>273</td>
+    <tr class="even">
+        <td class="header_city" colspan="2">Посещений за весь период</td>
+        <td class="persentage">273</td>
     </tr>
 </table>
 </body>
