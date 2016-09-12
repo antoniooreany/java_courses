@@ -10,6 +10,11 @@ table {
     border-collapse: collapse;
 }
 
+th {
+    width: 33%;
+    padding: 10px;
+}
+
 td {
     width: 33%;
     padding: 10px;
@@ -22,16 +27,16 @@ td {
     border-bottom: 1px solid black;
 }
 
-.header_city {
-    /*text-align: left;    */
+.city {
+    text-align: left;
 }
 
-.header_visits_caption {
+.header_visits {
     background-color: lightblue;
     text-align: center;
 }
 
-.header_visits {
+.visits {
     text-align: center;
 }
 
