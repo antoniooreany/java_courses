@@ -13,18 +13,16 @@ table {
 th {
     width: 33%;
     padding: 10px;
+    background-color: darkcyan;
+    color: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 td {
     width: 33%;
     padding: 10px;
-}
-
-.header {
-    background-color: darkcyan;
-    color: white;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgrey;
 }
 
 .city {
@@ -33,7 +31,6 @@ td {
 
 .header_visits {
     background-color: lightblue;
-    text-align: center;
 }
 
 .visits {
@@ -46,11 +43,9 @@ td {
 
 .odd {
     background-color: white;
-    border-bottom: 1px solid lightgrey;
 }
 
 .even {
     background-color: lightyellow;
-    border-bottom: 1px solid lightgrey;
 }
 
