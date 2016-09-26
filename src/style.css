@@ -1,51 +1,17 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     width: 350px;
-    margin: 0;
-    padding: 0 10px;
-    font-size: 14px;
+    padding: 10px 20px;
+    color: black;
     font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
-table {
-    border-collapse: collapse;
+h1 {
+    margin: 0;
 }
-
-th {
-    width: 33%;
-    padding: 10px;
-    background-color: darkcyan;
-    color: white;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-}
-
-td {
-    width: 33%;
-    padding: 10px;
-    border-bottom: 1px solid lightgrey;
-}
-
-.city {
-    text-align: left;
-}
-
-.header_visits {
-    background-color: lightblue;
-}
-
-.visits {
-    text-align: center;
-}
-
-.percentage {
-    text-align: right;
-}
-
-.odd {
-    background-color: white;
-}
-
-.even {
-    background-color: lightyellow;
-}
-
