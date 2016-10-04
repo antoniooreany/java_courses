@@ -1,21 +1,13 @@
-html, body {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    width: 350px;
-    padding: 10px 20px;
-    color: black;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.5;
+    color: red;
 }
 
-h1 {
-    margin: 0;
+ul {
+    font-style: italic;
 }
 
-/*select #month-field {*/
-    /*width: 100px;*/
-/*}*/
+.bold {
+    font-style: normal;
+    color: cyan;
+}
+
