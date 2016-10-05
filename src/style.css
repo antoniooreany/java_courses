@@ -1,22 +1,12 @@
-/*Небольшая подсказка*/
-.shooter-1 .first,
-.shooter-1 .third,
-.shooter-1 .fourth {
+li {
     background-color: white;
 }
 
-.shooter-1 .second,
-.shooter-1 .fifth {
+.shooter-1 .target .third + li,
+.shooter-2 .target .first + li {
     background-color: red;
 }
 
-.shooter-2 .first {
-    background-color: red;
-}
-
-.shooter-2 .second,
-.shooter-2 .third,
-.shooter-2 .fourth,
-.shooter-2 .fifth {
-    background-color: white;
+.shooter-2 .target .third + li {
+    background-color: yellow;
 }
