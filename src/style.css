@@ -1,4 +1,5 @@
-.first {
+.first,
+.fifth {
     background-color: white;
 }
 
@@ -6,14 +7,8 @@
     background-color: yellow;
 }
 
-.third{
+.third,
+.fourth {
     background-color: red;
 }
 
-.fourth{
-    background-color: red;
-}
-
-.fifth{
-    background-color: white;
-}
