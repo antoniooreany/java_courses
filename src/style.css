@@ -1,3 +1,19 @@
-li {
+.first {
+    background-color: white;
+}
+
+.second {
+    background-color: yellow;
+}
+
+.third{
+    background-color: red;
+}
+
+.fourth{
+    background-color: red;
+}
+
+.fifth{
     background-color: white;
 }
