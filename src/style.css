@@ -1,10 +1,11 @@
-.target li {
-    background-color: white;
+table {
+    background: rgba(255, 255, 255, 0.95);
 }
 
-.shooter-1 li:nth-child(2),
-.shooter-1 li:nth-child(5),
-.shooter-2 li:nth-child(1) {
-    background-color: red;
+tr:hover {
+    background-color: #fcf8e3;
 }
 
+strong:hover {
+    color: #0088cc;
+}
