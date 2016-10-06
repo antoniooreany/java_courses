@@ -2,8 +2,9 @@
     background-color: white;
 }
 
-.target li:nth-child(3),
-.target li:nth-child(4) {
+.shooter-1 li:nth-child(2),
+.shooter-1 li:nth-child(5),
+.shooter-2 li:nth-child(1) {
     background-color: red;
 }
 
