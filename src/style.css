@@ -1,12 +1,11 @@
-li {
+.target li {
     background-color: white;
 }
 
-.shooter-1 .target .third + li,
-.shooter-2 .target .first + li {
+.target li:first-child {
     background-color: red;
 }
 
-.shooter-2 .target .third + li {
+.target li:last-child {
     background-color: yellow;
 }
