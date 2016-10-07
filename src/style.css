@@ -2,10 +2,10 @@ em {
     display: none;
 }
 
-.cup-standings table tr :hover em {
+.cup-standings table tr:hover em {
     display: inline;
 }
 
-.cup-standings table tr :hover strong {
+.cup-standings table tr:hover strong {
     color: #0088cc;
 }
