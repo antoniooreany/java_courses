@@ -27,7 +27,7 @@ body {
     list-style: none;
 }
 
-.hitbox {
+li {
     position: relative;
     float: left;
     width: 22px;
@@ -39,11 +39,11 @@ body {
     font-size: 0;
 }
 
-li:last-child .hitbox{
+li:last-child {
     margin-right: 0;
 }
 
-selector {
+.hitbox {
     width: 10px;
     height: 10px;
     margin: 6px auto;
@@ -51,7 +51,7 @@ selector {
     background: #999999;
 }
 
-.miss .hitbox {
+.lever {
     position: absolute;
     top: -2px;
     left: -2px;
@@ -62,7 +62,7 @@ selector {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
-selector {
+span {
     position: absolute;
     top: 12px;
     left: 11px;
@@ -73,18 +73,18 @@ selector {
     1px 15px 2px rgba(0, 0, 0, 0.3);
 }
 
-.shooter-1 li:nth-child(2) .hitbox {
+.shooter-1 .miss .lever {
     display: none;
 }
 
-.shooter-2 li:nth-child(2) .hitbox {
+.shooter-2 li:first-child .lever {
     display: none;
 }
 
-.shooter-2 li:nth-child(4) .hitbox {
+.shooter-2 li:nth-child(4) .lever {
     display: none;
 }
 
-selector {
+.shooter-2 li:nth-child(5) .lever {
     display: none;
 }
