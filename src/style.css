@@ -1,33 +1,27 @@
 body {
-    width: 260px;
+    width: 300px;
     margin: 0;
-    padding: 0 10px;
-    font-family: "Times New Roman", serif;
-    font-size: 16px;
+    padding: 0;
+    padding-top: 15px;
+    font-size: 0;
+    text-align: center;
+    background: white;
 }
 
-h1 {
-    font-size: 18px;
+.block {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    background-color: black;
 }
 
-.sub {
-    vertical-align: sub;
-    font-size: 12px;
-}
-
-.sup {
-    vertical-align: super;
-    font-size: 12px;
-}
-
-.del {
-    text-decoration: line-through;
-}
-
-.underline {
-    text-decoration: underline;
-}
-
-.italic {
-    font-style: italic;
-}
+/*
+Используемые изображения:
+/assets/course13/cat_poo.png
+/assets/course13/cat_hiss.png
+/assets/course13/cat_walk.png
+/assets/course13/cat_slippers.png
+/assets/course13/cat_grumpy.png
+*/
