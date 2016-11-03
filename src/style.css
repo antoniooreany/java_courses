@@ -11,21 +11,23 @@ h1 {
 }
 
 .sub {
-    text-transform: lowercase;
+    vertical-align: sub;
+    font-size: 12px;
 }
 
 .sup {
-    text-transform: lowercase;
+    vertical-align: super;
+    font-size: 12px;
 }
 
 .del {
-
+    text-decoration: line-through;
 }
 
 .underline {
-
+    text-decoration: underline;
 }
 
 .italic {
-
+    font-style: italic;
 }
