@@ -1,27 +1,46 @@
+/* Базовые стили, изменять не нужно */
+html,
 body {
-    width: 300px;
     margin: 0;
     padding: 0;
-    padding-top: 15px;
-    font-size: 0;
-    text-align: center;
-    background: white;
+}
+
+body {
+    width: 520px;
+    min-height: 270px;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #3a78a1;
+    background-image: url("/assets/course9/grid.png");
+    background-repeat: repeat;
+    background-position: -80px -80px;
+}
+
+input[type="text"] {
+    height: 38px;
+    width: 440px !important;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+    box-sizing:border-box;
 }
 
 .block {
-    display: inline-block;
-    width: 90px;
-    height: 90px;
-    margin-bottom: 1px;
-    margin-right: 1px;
-    background-color: black;
+    background: rgba(0, 255, 255, 0.2);
 }
 
-/*
-Используемые изображения:
-/assets/course13/cat_poo.png
-/assets/course13/cat_hiss.png
-/assets/course13/cat_walk.png
-/assets/course13/cat_slippers.png
-/assets/course13/cat_grumpy.png
-*/
+.block1 {
+    border: 2px solid white;
+}
+
+.block2 {
+    margin: 18px;
+}
+
+/* Cтили, которые можно изменять */

@@ -13,4 +13,8 @@ public class HelloWorld {
         String xyz = "xyz";
         Calendar now = new GregorianCalendar(TimeZone.getTimeZone(ZoneId.systemDefault()));
     }
+
+    private void foo() {
+        System.out.println("foo");
+    }
 }
