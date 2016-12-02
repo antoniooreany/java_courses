@@ -1,46 +1,75 @@
-/* Базовые стили, изменять не нужно */
-html,
-body {
+html, body {
     margin: 0;
     padding: 0;
 }
 
 body {
-    width: 520px;
-    min-height: 270px;
-    padding: 20px;
-    font-size: 14px;
-    line-height: 1.5;
-    font-family: Arial, sans-serif;
-    color: white;
-    background-color: #3a78a1;
-    background-image: url("/assets/course9/grid.png");
-    background-repeat: repeat;
-    background-position: -80px -80px;
+    width: 400px;
+    height: 300px;
 }
 
-input[type="text"] {
-    height: 38px;
-    width: 440px !important;
-    font-size: 18px;
-    font-family: Arial, sans-serif;
-    border: 2px solid #cccccc;
-    border-radius: 5px;
-    margin: 20px;
-    padding: 10px;
-    box-sizing:border-box;
+.puzzle {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 5px;
 }
 
-.block {
-    background: rgba(0, 255, 255, 0.2);
+.puzzle div {
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
 .block1 {
-    border: 2px solid white;
+    float: left;
+    width: 70px;
+    height: 220px;
+    background: #3498db;
 }
 
 .block2 {
-    margin: 18px;
+    float: right;
+    width: 220px;
+    height: 70px;
+    background: #3498db;
 }
 
-/* Cтили, которые можно изменять */
+.block3 {
+    width: 70px;
+    height: 70px;
+    background: #8e44ad;
+}
+
+.block4 {
+    float: left;
+    width: 70px;
+    height: 145px;
+    background: #e74c3c;
+}
+
+.block5 {
+    float: right;
+    width: 70px;
+    height: 145px;
+    background: #e74c3c;
+}
+
+.block6 {
+    float: right;
+    width: 70px;
+    height: 70px;
+    background: #f1c40f;
+}
+
+.block7 {
+    float: right;
+    width: 145px;
+    height: 70px;
+    background: #2ecc71;
+}
+
+.block8 {
+    float: left;
+    width: 145px;
+    height: 70px;
+    background: #2ecc71;
+}
