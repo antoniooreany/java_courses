@@ -12,9 +12,52 @@ body {
     color: white;
 }
 
+.wrapper {
+    background: #34495e;
+    padding-top: 10px;
+
+}
+
+.header {
+    background: #c0392b;
+    height: 30px;
+    padding: 5px;
+    margin: 0px 50px 10px 50px;
+}
+
 /*
     Используемые цвета:
     #34495e – мокрый асфальт
     #c0392b – красный
     #3498DB – синий
 */
+
+.menu {
+    background: #3498DB;
+    height: 30px;
+    width: inherit;
+    padding: 5px;
+}
+
+.promo {
+    background: #c0392b;
+    height: 60px;
+    width: 150px;
+    padding: 5px;
+}
+
+.promo-1 {
+    float: left;
+    margin-left: 50px;
+}
+
+.promo-2 {
+    float: right;
+    margin-right: 50px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
