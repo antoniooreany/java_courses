@@ -12,17 +12,49 @@ body {
     color: white;
 }
 
-.wrapper {
+.container {
     background: #34495e;
     padding-top: 10px;
-
 }
 
 .header {
+    width: 340px;
     background: #c0392b;
     height: 30px;
+    margin: auto 50px 10px;
     padding: 5px;
-    margin: 0px 50px 10px 50px;
+}
+
+.menu {
+    background: #3498DB;
+    height: 25px;
+    padding: 5px 55px;
+}
+
+.layout-promo {
+    background: #c0392b;
+}
+
+.layout-promo {
+    height: 55px;
+    width: 160px;
+    padding: 5px;
+}
+
+.promo1 {
+    float: left;
+    margin: 10px 5px 10px 50px;
+}
+
+.promo2 {
+    float: right;
+    margin: 10px 50px 10px 5px;
+}
+
+.layout-positioner {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /*
@@ -32,32 +64,3 @@ body {
     #3498DB – синий
 */
 
-.menu {
-    background: #3498DB;
-    height: 30px;
-    width: inherit;
-    padding: 5px;
-}
-
-.promo {
-    background: #c0392b;
-    height: 60px;
-    width: 150px;
-    padding: 5px;
-}
-
-.promo-1 {
-    float: left;
-    margin-left: 50px;
-}
-
-.promo-2 {
-    float: right;
-    margin-right: 50px;
-}
-
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
