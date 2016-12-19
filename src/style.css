@@ -57,6 +57,31 @@ body {
     clear: both;
 }
 
+.layout-column {
+    height: 200px;
+
+}
+
+.layout-column .column1 {
+    width: 50px;
+}
+
+.layout-column .column2 {
+    width: 300px;
+}
+
+.layout-column .column2 {
+    width: 50px;
+}
+
+.footer {
+    background: #34495e;
+    width: auto;
+    height: 50px;
+    margin-top: 20px;
+
+}
+
 /*
     Используемые цвета:
     #34495e – мокрый асфальт
