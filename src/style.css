@@ -20,7 +20,7 @@ body {
 .header {
     width: 340px;
     background: #c0392b;
-    height: 30px;
+    height: 25px;
     margin: auto 50px 10px;
     padding: 5px;
 }
@@ -33,10 +33,7 @@ body {
 
 .layout-promo {
     background: #c0392b;
-}
-
-.layout-promo {
-    height: 55px;
+    height: 50px;
     width: 160px;
     padding: 5px;
 }
@@ -51,35 +48,48 @@ body {
     margin: 10px 50px 10px 5px;
 }
 
+.layout-column {
+    height: 100px;
+    background: #3498DB;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.column1 {
+    float: left;
+    width: 60px;
+    margin-right: 5px;
+    margin-left: 50px;
+}
+
+.column2 {
+    float: left;
+    width: 180px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+
+.column3 {
+    float: right;
+    width: 60px;
+    margin-right: 50px;
+    margin-left: 5px;
+
+}
+
 .layout-positioner {
     content: "";
     display: table;
     clear: both;
 }
 
-.layout-column {
-    height: 200px;
-
-}
-
-.layout-column .column1 {
-    width: 50px;
-}
-
-.layout-column .column2 {
-    width: 300px;
-}
-
-.layout-column .column2 {
-    width: 50px;
-}
-
 .footer {
     background: #34495e;
     width: auto;
-    height: 50px;
-    margin-top: 20px;
-
+    height: 30px;
+    padding: 5px 55px;
 }
 
 /*
