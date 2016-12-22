@@ -1,68 +1,79 @@
-html,
-body {
-    margin: 0;
-    padding: 0;
+html, body{
+    margin:0;
+    padding:0;
 }
-
-body {
-    width: 450px;
-    height: 300px;
-    font-family: "Arial", sans-serif;
-    font-size: 12px;
+body{
+    width:450px;
+    height:300px;
+    font-family:'Arial', sans-serif;
+    font-size:12px;
 }
-
-.gallery {
-    padding-top: 10px;
+.gallery{
+    padding-top:10px;
+    text-align:center;
+    font-size:0;
 }
+.gallery .item{
+    width:125px;
 
-.gallery .item {
-    width: 125px;
-    margin: 0 10px;
-    margin-bottom: 10px;
+    margin-bottom:10px;
+    margin-left:20px;
+    font-size:12px;
+    display:inline-block;
+
 }
+.gallery .title{
+    margin-bottom:5px;
+    line-height:14px;
+    text-align:left;
 
-.gallery .title {
-    margin-bottom: 5px;
-    line-height: 14px;
 }
-
-.gallery .frame {
-    background: #ecf0f1;
+.gallery .frame{
+    background:#ECF0F1;
+    border:1px solid black;
 }
-
-.gallery .image {
-    height: 70px;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
+.item:nth-child(1){
+    margin-left:-5px;
 }
-
-.gallery .image-1 {
-    background-color: #2ecc71;
-    /*background-image: url("/assets/course13/cat_box.png");*/
+.item:nth-child(4){
+    margin-left:-5px;
 }
-
-.gallery .image-2 {
-    background-color: #3498db;
-    /*background-image: url("/assets/course13/cat_fish.png");*/
+.gallery .image{
+    height:70px;
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    border-collapse:collapse;
+    margin-top:10px;
+    margin-bottom:5px;
 }
-
-.gallery .image-3 {
-    background-color: #f1c40f;
-    /*background-image: url("/assets/course13/cat_purr.png");*/
+.gallery .image-1{
+    background-color:#2ECC71;
+    background-image:url('/assets/course13/cat_box.png');
+    margin-left:0;
 }
-
-.gallery .image-4 {
-    background-color: #e67e22;
-    /*background-image: url("/assets/course13/cat_walk.png");*/
+.gallery .image-2{
+    background-color:#3498DB;
+    background-image:url('/assets/course13/cat_fish.png');
 }
-
-.gallery .image-5 {
-    background-color: #e74c3c;
-    /*background-image: url("/assets/course13/cat_drunk.png");*/
+.gallery .image-3{
+    background-color:#f1c40f;
+    background-image:url('/assets/course13/cat_purr.png');
 }
-
-.gallery .date {
-    font-style: italic;
-    font-size: 11px;
-    color: #666666;
+.gallery .image-4{
+    background-color:#E67E22;
+    background-image:url('/assets/course13/cat_walk.png');
+    margin-left:0;
+}
+.gallery .image-5{
+    background-color:#E74C3C;
+    background-image:url('/assets/course13/cat_drunk.png');
+}
+.gallery .date{
+    color:#666;
+    font-style:italic;
+    font-size:11px;
+    margin:5px;
+    text-align:left;
 }
