@@ -6,100 +6,63 @@ body {
 
 body {
     width: 450px;
-    height: 335px;
+    height: 300px;
     font-family: "Arial", sans-serif;
-    font-size: 10px;
-    color: white;
+    font-size: 12px;
 }
 
-.container {
-    background: #34495e;
+.gallery {
     padding-top: 10px;
 }
 
-.header {
-    width: 340px;
-    background: #c0392b;
-    height: 25px;
-    margin: auto 50px 10px;
-    padding: 5px;
-}
-
-.menu {
-    background: #3498DB;
-    height: 25px;
-    padding: 5px 55px;
-}
-
-.layout-promo {
-    background: #c0392b;
-    height: 50px;
-    width: 160px;
-    padding: 5px;
-    margin-top: 10px;
+.gallery .item {
+    width: 125px;
+    margin: 0 10px;
     margin-bottom: 10px;
 }
 
-.promo1 {
-    float: left;
-    margin-right: 5px;
-    margin-left: 50px;
+.gallery .title {
+    margin-bottom: 5px;
+    line-height: 14px;
 }
 
-.promo2 {
-    float: right;
-    margin-right: 50px;
-    margin-left: 5px;
+.gallery .frame {
+    background: #ecf0f1;
 }
 
-.layout-column {
-    height: 100px;
-    background: #3498DB;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
+.gallery .image {
+    height: 70px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
 
-.column1 {
-    float: left;
-    width: 60px;
-    margin-right: 5px;
-    margin-left: 50px;
+.gallery .image-1 {
+    background-color: #2ecc71;
+    /*background-image: url("/assets/course13/cat_box.png");*/
 }
 
-.column2 {
-    float: left;
-    width: 180px;
-    margin-right: 5px;
-    margin-left: 5px;
-
+.gallery .image-2 {
+    background-color: #3498db;
+    /*background-image: url("/assets/course13/cat_fish.png");*/
 }
 
-.column3 {
-    float: right;
-    width: 60px;
-    margin-right: 50px;
-    margin-left: 5px;
-
+.gallery .image-3 {
+    background-color: #f1c40f;
+    /*background-image: url("/assets/course13/cat_purr.png");*/
 }
 
-.layout-positioner {
-    content: "";
-    display: table;
-    clear: both;
+.gallery .image-4 {
+    background-color: #e67e22;
+    /*background-image: url("/assets/course13/cat_walk.png");*/
 }
 
-.footer {
-    background: #34495e;
-    width: auto;
-    height: 30px;
-    padding: 5px 55px;
+.gallery .image-5 {
+    background-color: #e74c3c;
+    /*background-image: url("/assets/course13/cat_drunk.png");*/
 }
 
-/*
-    Используемые цвета:
-    #34495e – мокрый асфальт
-    #c0392b – красный
-    #3498DB – синий
-*/
-
+.gallery .date {
+    font-style: italic;
+    font-size: 11px;
+    color: #666666;
+}
