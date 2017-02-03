@@ -15,28 +15,25 @@ body{
 }
 .gallery .item{
     width:125px;
-
     margin-bottom:10px;
     margin-left:20px;
     font-size:12px;
     display:inline-block;
-
 }
 .gallery .title{
     margin-bottom:5px;
     line-height:14px;
     text-align:left;
-
 }
 .gallery .frame{
     background:#ECF0F1;
     border:1px solid black;
 }
 .item:nth-child(1){
-    margin-left:-5px;
+    margin-left:0;
 }
 .item:nth-child(4){
-    margin-left:-5px;
+    margin-left:0;
 }
 .gallery .image{
     height:70px;
@@ -71,7 +68,7 @@ body{
     background-image:url('/assets/course13/cat_drunk.png');
 }
 .gallery .date{
-    color:#666;
+    color:#666666;
     font-style:italic;
     font-size:11px;
     margin:5px;
