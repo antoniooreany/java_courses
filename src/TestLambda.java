@@ -22,7 +22,12 @@ public class TestLambda {
                 return a + b;
             }
         });
-        operations.put(minusSign, (a, b) -> a - b);
+        operations.put(minusSign, new Operation() {
+            @Override
+            public int operate(int a, int b) {
+                return a - b;
+            }
+        });
         operations.put(powSign, (a, b) -> (int) Math.pow(a, b));
 
         Set<String> keySet = operations.keySet();
