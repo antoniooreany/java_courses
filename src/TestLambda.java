@@ -28,7 +28,12 @@ public class TestLambda {
                 return a - b;
             }
         });
-        operations.put(powSign, (a, b) -> (int) Math.pow(a, b));
+        operations.put(powSign, new Operation() {
+            @Override
+            public int operate(int a, int b) {
+                return (int) Math.pow(a, b);
+            }
+        });
 
         Set<String> keySet = operations.keySet();
         for (String sign : keySet) {
