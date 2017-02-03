@@ -16,7 +16,12 @@ public class TestLambda {
 
         Map<String, Operation> operations = new HashMap<>();
 
-        operations.put(plusSign, (a, b) -> a + b);
+        operations.put(plusSign, new Operation() {
+            @Override
+            public int operate(int a, int b) {
+                return a + b;
+            }
+        });
         operations.put(minusSign, (a, b) -> a - b);
         operations.put(powSign, (a, b) -> (int) Math.pow(a, b));
 
